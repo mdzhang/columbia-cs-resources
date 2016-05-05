@@ -6,6 +6,8 @@ Available CS courses are listed [here](http://www.columbia.edu/cu/bulletin/uwb/)
 
 See [guide](https://github.com/mdzhang/columbia-cs-resources/blob/master/Guide.pdf) to the CS major. This is a little different than the one I followed since they used to require both 1004 and 1007 which had to be taken sequentially.
 
+See [resources](https://github.com/mdzhang/columbia-cs-resources/tree/master/resources) for class specific resources that may not be online anywhere.
+
 ## List of Courses
 
 | Type  | Course Code | Course Name | Professor | Texts | Additional Resources |
