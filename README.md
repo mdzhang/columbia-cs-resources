@@ -4,7 +4,7 @@ Courses I took, and related resources, for the computer science major I received
 
 Available CS courses are listed [here](http://www.columbia.edu/cu/bulletin/uwb/) along with the textbooks used by some of them. Generally, if you google a course, professor, and "columbia", you'll also find a bunch of public resources. Another way to see who taught what is by checking out [CULPA](http://www.culpa.info/).
 
-See [guide](https://github.com/mdzhang/columbia-cs-resources/blob/master/Guide.pdf) to the CS major. This is a little different than the one I followed since they used to require both 1004 and 1007 which had to be taken sequentially.
+See [guide](https://github.com/mdzhang/columbia-cs-resources/blob/master/Guide.xls) to the CS major. They switched around the requirements in 2013 and new ones are posted [here](http://www.cs.columbia.edu/education/undergrad).
 
 See [resources](https://github.com/mdzhang/columbia-cs-resources/tree/master/resources) for class specific resources that may not be online anywhere.
 
