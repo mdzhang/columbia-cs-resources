@@ -1,0 +1,60 @@
+javaAssignment - In progress
+Title	 Hearts
+Due	 Oct 2, 2013 9:00 am
+Status	 Not Started
+Grade Scale	 Points (max 10.0)
+Instructions
+
+Write a series of programs using arrays and records that implement rudimentary playing card manipulations for the game of Hearts. Programs written should include NewDeck, Shuffle, Deal, Leader, and Show. 
+    
+NewDeck produces a deck of 52 cards and prints a string version of it onto stdout
+    
+Shuffle reads a string version of a deck of cards from stdin, recreates the deck, shuffles the deck, and writes the string version to stdout
+    
+Deal reads a string version of a deck of cards from stdin recreates the deck, and writes 4 separate 13-card decks (hands) in their string versions to stdout
+    
+Leader reads 4 hands from stdin (North, East, South, and West) and writes which hand contains the 2 of clubs to stdout
+    
+Show reads 4 hands from stdin and pretty-prints them to stdout
+
+Examples:
+
+% java hearts/NewDeck | java hearts/Shuffle | java hearts/Deal | java hearts/Leader
+
+East
+
+% java hearts/NewDeck | java hearts/Shuffle | java hearts/Deal | tee hands | java hearts/Show
+
+                           North
+
+                           Clubs:    3 6 Q
+
+                           Diamonds: 3 4 7 8 9 Q K A
+
+                           Hearts:   Q K
+
+                           Spades:   
+
+West                                                  East
+
+Clubs:    5 7 8 T                                     Clubs:    4 J K A
+
+Diamonds: 2                                           Diamonds: 6 T
+
+Hearts:   A                                           Hearts:   4 6 7 T J
+
+Spades:   3 4 5 7 8 J Q                               Spades:   2 6
+
+                           South
+
+                           Clubs:    2 9
+
+                           Diamonds: 5 J
+
+                           Hearts:   2 3 5 8 9
+
+                           Spades:   9 T K A
+
+% java hearts/Leader < hands
+
+South

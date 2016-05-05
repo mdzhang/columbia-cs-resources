@@ -1,0 +1,28 @@
+Assignment - In progress
+Title	 RSA
+Due	 Dec 4, 2013 9:00 am
+Status	 Not Started
+Grade Scale	 Points (max 10.0)
+Instructions
+ 
+
+
+Write the programs Makekeys and Encode that implement the RSA algorithms as follows: 
+
+% java rsa/Makekeys bob 
+
+will generate the files bob.public and bob.private containing bob’s public and private keys.
+
+% java rsa/Encode bob.public < message > code
+
+
+will read the file message from stdin, encode it using the key specified, and write it to the file code on stdout. The Encode program can be used to both encode and decode by using the pair of keys. That is,
+
+% java rsa/Encode bob.public < message | java rsa/Encode bob.private
+
+
+should output the file message unchanged.
+
+The programs you write need not implement a secure code. That is, rather than using large primes, use a randomly generated pair of primes each between 64 and 128. Your algorithms, however, need to use the RSA algorithms that would thus run in efficiently even if large (100+ digit) primes were used. Specifically, your exponentiation algorithm computing b^n should run in log(n) time, and your algorithm to compute the inverse of a number in mod n should also run in log(n) time. 
+
+The message file should be a file of integers in the range less than 4096 (that is, 64 squared) so as to assure that each integer will be less than your RSA modulus, with each integer on its own line. Each integer should be encoded separately.

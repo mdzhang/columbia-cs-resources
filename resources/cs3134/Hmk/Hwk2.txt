@@ -1,0 +1,33 @@
+Assignment - In progress
+Title	 List Utilities
+Due	 Oct 14, 2013 9:00 am
+Status	 Not Started
+Grade Scale	 Points (max 10.0)
+Instructions
+ 
+
+Add the following methods to the Immutable List class (you may need some additional private methods as well):
+
+
+
+public ImmutableList purge(); // returns a new list equivalent to "this" but with no duplicate elements
+
+
+
+public ImmutableList sort(); // returns a new list made of the all elements of "this" but sorted. Must use merge sort algorithm.
+
+
+
+Part 2.
+Implement the class ListSet that uses ImmutableLists to implement the Set interface.
+
+Part 3.
+Write a driver class "ListSetTest" that functions as follows: On the command line, the arguments are a sequence of unsorted integers. The test class should first create an ImmutableList of the ints, then purge it, then sort it, then print it to stdout. Then, it should create a ListSet of the original ints and print it to stdout.
+
+
+
+% java ListSetTest 4 8 5 2 9 7 5 6 9
+
+ImmutableList is (2 4 5 6 7 8 9)
+
+ListSet is { 2 4 5 6 7 8 9 }

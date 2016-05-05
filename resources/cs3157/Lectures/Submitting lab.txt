@@ -1,0 +1,22 @@
+$git clone /home/jae/cs3157-pub/labN labN
+
+git add
+git rm
+git reset
+git commit
+
+git format-patch --stdout origin > mywork.mbox
+
+$/home/w3157/submit/submit-lab lab1
+
+patch created (mdz2110-lab1.mbox)
+copied into /home/w3157/submit/lab1/mdz2110-lab1.mbox
+cloned into lab1-2013-02-09-104401/
+
+git am ../test2/mywork.mbox
+
+valgrind --leak-check=yes ./exe >> README.txt 2>&1
+
+rm -rf ./dir
+
+/home/jae/cs3157-pub/bin

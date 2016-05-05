@@ -1,0 +1,59 @@
+Assignment - In progress
+Title	 Sorting
+Due	 Nov 25, 2013 9:00 am
+Status	 Not Started
+Grade Scale	 Points (max 10.0)
+Instructions
+ 
+
+The instrumentation of code is the modification of code to include additional instructions that monitor the original code to produce analyses of its run-time behavior. In this assignment you will comparatively analyze the quicksort and heapsort algorithms.
+
+
+Create a file containing a list of first names (e.g. John, Mary, Mark, Seth, ...). It should contain at least 30 names.
+
+Create a similar file containing a list of at least 30 last names (e.g. Smith, Lee, ...).
+
+Write a program, MakeNames, that, given the two files above, writes a list of 1000 people, each with a randomly selected first name and last name, but each with a unique, four-digit identification code.
+
+% java names/MakeNames firstNames lastNames
+
+Mary Crawford 1000
+
+Amy Kant 1001
+
+...
+
+John Crawford 1999
+
+Implement both quicksort and heapsort methods to sort a Person array. The Person class should contain first and
+last names as well as id number. The sort routines should sort alphabetically by last name, and if equal, by first
+name, and only use the id number to resolve identical names.
+
+Instrument your code to keep track of each comparison of Persons, and all swaps (swaps should be counted for each Person object set to a value during a sort; thus, if a swap sets a temp Person to a, then a to b, and b to temp, this counts as 3 swaps). 
+
+Your main program, Sort, 
+should use either quicksort or heapsort based on the command line argument, and either print the sorted array
+or the statistics, also based on the command line argument.
+% java names/MakeNames firstNames lastNames > personDataBase
+
+% java names/Sort -h -stats < personDataBase
+
+Element Comps: 21157, Swaps: 9126
+
+% java names/Sort -q -stats < personDataBase
+
+Element Comps: 17886, Swaps: 2370
+
+% java names/Sort -q  < personDataBase | java names/Sort -q -stats
+
+Element Comps: 501497, Swaps: 0
+
+% java names/Sort -h  < personDataBase | java names/Sort -h -stats
+
+Element Comps: 22067, Swaps: 9708
+
+Extra Credit (3 pojnts) Change your pivot selection routine in quicksort to improve its performance.
+
+
+numbers do not reflect actual results
+call to compareTo on Person is 1 comparison
