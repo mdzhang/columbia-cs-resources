@@ -16,7 +16,7 @@ See [guide](https://github.com/mdzhang/columbia-cs-resources/blob/master/Guide.p
 | Core  | COMS W3157  | Advanced Programming | Jae | The C Programming Language | <ul><li>[class site](http://www.cs.columbia.edu/~jae/3157-LAST/)</li><li>TAs [repo](https://github.com/cs3157)</li></ul> |
 | Core  | COMS W3203  | Discrete Mathematics | Strickland | | None |
 | Core  | COMS W3261  | Computer Science Theory | Yannakakis | | [lecture notes](https://github.com/mdzhang/columbia-cs-resources/blob/master/resources/cs3261/Lectures) |
-| Core  | CSEE W3827  | Fundamentals of Computer Systems | Martha Kim | | [class site](http://www.cs.columbia.edu/~martha/courses/3827/) |
+| Core  | CSEE W3827  | Fundamentals of Computer Systems | Martha Kim | Digital Design and Computer Architecture | [class site](http://www.cs.columbia.edu/~martha/courses/3827/) |
 | Track | CSEE W4119  | Computer Networks | Chaintreau | Computer networking : a top-down approach; 9780132856201 | [class site](http://www.cs.columbia.edu/~augustin/) (links at bottom)|
 | Track | CSOR W4231  | Analysis of Algorithms | Chen | Introduction to Algorithms, Third Edition; 9780262033848 | [class site](https://alg12.wikischolars.columbia.edu/) |
 | Track | COMS W4701  | Artificial Intelligence | Radev | Artificial Intelligence, A Modern Approach; 0136042597 | [class site](http://www1.cs.columbia.edu/~cs4701/) |
