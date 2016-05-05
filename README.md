@@ -10,10 +10,9 @@ See [guide](https://github.com/mdzhang/columbia-cs-resources/blob/master/Guide.p
 
 | Type  | Course Code | Course Name | Professor | Texts | Additional Resources |
 |-------| ------------|-------------|-----------|-------|----------------------|
-| Core  | COMS W1004  | Intro to CS and Programming in Java | Cannon | | |
-| Core  | COMS W1007  | Object Oriented Programming in Java | Kender | | |
-| Core  | COMS W3134  | Data Structures | Pasik | | |
-| Core  | COMS W3134  | Data Structures | Pasik | | |
+| Core  | COMS W1004  | Intro to CS and Programming in Java | Cannon | <ul><li>Big Java</li><li>Invitation to Computer Science</li> | |
+| Core  | COMS W1007  | Object Oriented Programming in Java | Kender | Java Software Solutions, Lewis & Loftus | |
+| Core  | COMS W3134  | Data Structures | Pasik | None | |
 | Core  | COMS W3157  | Advanced Programming | Jae | | <ul><li>[lecture notes](http://www.cs.columbia.edu/~jae/3157-LAST/)</li><li>TAs [repo](https://github.com/cs3157)</li></ul> |
 | Core  | COMS W3134  | Discrete Mathematics | | | |
 | Core  | COMS W3261  | Computer Science Theory | | | |
